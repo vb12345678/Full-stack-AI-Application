@@ -17,4 +17,4 @@ completion = client.chat.completions.create(
   ]
 )
 
-print("response:",completion.choices[0].message.content)
+print("response: ",completion.choices[0].message.content)
